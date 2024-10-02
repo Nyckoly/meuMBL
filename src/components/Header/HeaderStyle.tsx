@@ -1,14 +1,6 @@
-import { View, Text, StyleSheet } from "react-native";
+import {StyleSheet} from "react-native"
 
-export default function Header(){
-    return (
-        <View style={headerStyle.container}>
-            <Text style={headerStyle.text}>Turn On/Off</Text>
-        </View>
-    )
-}
-
-const headerStyle = StyleSheet.create({
+export const headerStyle = StyleSheet.create({
     container:{
         backgroundColor:"#000",
         width:"100%",
